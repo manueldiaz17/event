@@ -1,0 +1,173 @@
+body{
+	background-image: url(fondo.jpg);
+	
+}
+.contenedor {
+	width: 95%;
+	max-width:1000px;
+	margin:auto;
+}
+ 
+.contenedor p {
+	margin-bottom:40px;
+}
+ 
+header nav {
+	background: rgb(44, 234, 215, 0.7);
+	margin-bottom:10px;
+}
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+	font-family: 'Lily Script One', arial
+}
+ 
+header nav ul li a:hover {
+	background:black;
+}
+ 
+ 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+div img{
+	margin:10px auto;
+	display:block;
+}
+
+.imagen{
+	width:80%;
+	height: 10%;
+	margin: auto;
+	
+
+}
+.imagen img{
+	width: 100%;
+	margin: auto;
+	display: block;
+	border-radius: 30px;
+	box-shadow: 5px 5px 0px #424242;
+	padding: 10px;
+
+}
+h3{
+	font-family: "Homer Simpson", cursive;
+	font-size: 25px;
+}
+figcaption{
+	font-size: 18px;
+	color: #000000;
+
+}
+body h2 {
+ font: oblique bold 120% cursive;
+ font-size: 300%;
+}
+footer {
+    width: 100%;
+    float: left;
+    clear: both;
+    background: rgb(44, 234, 215, 0.7);
+    background: -moz-linear-gradient(top, #rgb(44, 234, 215, 0.7) 0%, #2d2d2d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(44, 234, 215, 0.7)), color-stop(100%,#2d2d2d));
+    background: -webkit-linear-gradient(top, rgb(44, 234, 215, 0.7) 0%,#2d2d2d 100%);
+    background: -o-linear-gradient(top, rgb(44, 234, 215, 0.7) 0%,#2d2d2d 100%);
+    background: -ms-linear-gradient(top, rgb(44, 234, 215, 0.7) 0%,#2d2d2d 100%);
+    background: linear-gradient(to bottom, rgb(44, 234, 215, 0.7) 0%,#2d2d2d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(44, 234, 215, 0.7)', endColorstr='#2d2d2d',GradientType=0 );
+    box-shadow: 0px 2px 2px #000;
+    -moz-box-shadow: 0px 2px 2px #000;
+    -webkit-box-shadow: 0px 2px 2px #000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+footer section {
+	width:440px;
+	float:left;
+	padding:20px;
+}
+
+footer #acerca-de {
+	font-family:Arial, Helvetica, Sans-serif;
+	font-size:12px;
+	color:#000000;
+	text-align:justify;
+	line-height:20px;
+}
+
+footer #acerca-de h3 {
+	font-family:sourcesans-light;
+	font-size:20px;
+	color:#000000;
+	margin-bottom:5px;
+}
+
+footer #redes-s > div {
+	width:220px;
+	height:60px;
+	float:left;
+	background:#ff8000;
+	opacity:0.7;
+}
+
+footer #redes-s > div a {
+	width:220px;
+	height:60px;
+	display:inline-block;
+}
+
+footer #redes-s .email {
+	background:url('correo.png');
+	margin-bottom:10px;
+}
+
+footer #redes-s .twitter {
+	background:url('twitter.png');
+	margin-bottom:10px;
+}
+
+footer #redes-s .facebook {
+	background:url('facebook.png');
+}
+
+footer #redes-s .youtube {
+	background:url('youtube.png');
+}
+
+footer #redes-s > div:hover {
+	opacity:1;
+}
+
+#copyright {
+	float:left;
+	width:960px;
+	margin:10px 0px;
+}
+
+#copyright p {
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	font-family:Arial, Helvetica, Sans-serif;
+}
